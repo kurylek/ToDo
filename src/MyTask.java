@@ -11,6 +11,7 @@ public class MyTask {
 
     public MyTask(String name) {
         this.name = name;
+        this.description = "";
         this.status = MyTaskStatus.ACTIVE;
     }
 
